@@ -1,4 +1,4 @@
-function soluation(str) {
+function solution(str) {
   let arr = str.split("");
   let count = 0;
 
@@ -13,4 +13,4 @@ function soluation(str) {
 
 const str = "KoreaTimeGood";
 
-soluation(str);
+solution(str);

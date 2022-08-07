@@ -1,4 +1,4 @@
-function soluation(str) {
+function solution(str) {
   const arr = str.split(",");
 
   //갓성비... Set 키워드
@@ -7,4 +7,4 @@ function soluation(str) {
 
 const arr = ["good", "time", "good", "time", "student"];
 
-soluation("ksekkset");
+solution(arr);

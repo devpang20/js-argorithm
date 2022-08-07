@@ -1,4 +1,4 @@
-function soluation(n, strArr) {
+function solution(n, strArr) {
   let longWordCount = 0;
   let answer = "";
 
@@ -16,4 +16,4 @@ function soluation(n, strArr) {
 }
 const arr = ["teacher", "time", "student", "beautiful", "good"];
 
-soluation(arr.length, arr);
+solution(arr.length, arr);

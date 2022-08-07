@@ -1,6 +1,6 @@
 const str = "BANANA";
 
-const soluation = function (str) {
+const solution = function (str) {
   const arr = str.split("");
   const changeArr = arr.map((row) => (row === "A" ? "#" : row));
   const changeStr = changeArr.join("");
@@ -8,4 +8,4 @@ const soluation = function (str) {
   return changeStr;
 };
 
-console.log(soluation2(str));
+console.log(solution(str));

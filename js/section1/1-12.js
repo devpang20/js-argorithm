@@ -1,4 +1,4 @@
-function soluation(str) {
+function solution(str) {
   let arr = str.split("");
   let answer = [];
 
@@ -15,4 +15,4 @@ function soluation(str) {
 
 const str = "ItisTimeToStudy";
 
-soluation(str);
+solution(str);

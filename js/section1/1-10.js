@@ -1,4 +1,4 @@
-function soluation(str, t) {
+function solution(str, t) {
   let arr = str.split("");
   let count = 0;
 
@@ -14,4 +14,4 @@ function soluation(str, t) {
 const str = "COMPUTERPROGRAMMING";
 const t = "R";
 
-soluation(str, t);
+solution(str, t);

@@ -1,4 +1,4 @@
-function soluation(str) {
+function solution(str) {
   const row = str.split("");
   const rowLength = row.length;
   const i = parseInt(rowLength / 2);
@@ -11,5 +11,5 @@ function soluation(str) {
   }
 }
 
-soluation("study");
-soluation("good");
+solution("study");
+solution("good");
